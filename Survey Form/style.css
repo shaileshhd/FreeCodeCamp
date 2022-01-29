@@ -1,0 +1,72 @@
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://images.ctfassets.net/p0qf7j048i0q/3Mht6zhJpCu12MDLivCVyv/85e9cca8656dadad5fef365e424ff531/G1015133478.jpg);
+  background-size: cover;
+  color: white;
+}
+#title{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 50px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 25;
+}
+#description{
+  text-align: center;
+  margin-top: -40px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+#survey-form{
+  background-color:rgba(48, 33, 66, 0.39);
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30%;
+  padding: 30px 30px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+#survey-form > label{
+  padding: 7px 0;
+}
+#gender, #console{
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+}
+#gender > div, #console > div{
+  display: grid;
+  grid-template-columns: 25px auto;
+}
+#add-com > textarea{
+  width: 95%;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  margin-top: -20px;
+  border-radius: 5px;
+}
+#survey-form > label input, select{
+  width: 95%;
+  padding: 10px 10px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+#submit{
+  background-color:rgba(31, 200, 212, 0.466);
+  color: whitesmoke;
+  border-radius: 5px;
+}
+#gender > div input, #console > div input{
+  align-self: center;
+}
+@media(max-width: 1000px){
+  #survey-form{
+    margin: 20px 10px;
+  }
+  body{
+    background-size: cover;
+  }
+}

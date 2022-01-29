@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="author" content="Shailesh H D">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A survey from">
+  <title>Gaming survey form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 id="title">Gaming Survey Form</h1>
+  <p id="description">Your review is the key to our advancement of our services.</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">
+      Name: <br/>
+      <input type="text" id="name" required placeholder="Enter Your Name. eg:- John Wick">
+    </label>
+    <label for="name" id="email-label">
+      email: <br/>
+      <input type="email" id="email" required placeholder="Enter Your Email">
+    </label>
+    <label for="age" id="number-label">
+      Age: <br/>
+      <input type="number" min="1" max="100" id="number" required placeholder="Enter Your Age. Range :- 0-100">
+    </label>
+    <lable>
+      Your favourite game : <br/>
+      <select name="games" id="dropdown">
+        <option>--Select--</option>
+        <option>Assassin's Creed</option>
+        <option>Call of Duty</option>
+        <option>Battlefield</option>
+        <option>Need for Speed</option>
+        <option>Forza Horizon</option>
+        <option>Grand Theft Auto</option>
+      </select>
+    </lable>
+    <label id="gender">
+      Gender:
+      <div>
+        <input type="radio" name="gender" value="male">Male 
+        <input type="radio" name="gender" value="female">female
+        <input type="radio" name="gender" value="other">other
+      </div>
+    </label>
+    <label id="console">
+      Preferred game console:
+       <div>
+        <input type="checkbox" name="console" value="PC">PC
+        <input type="checkbox" name="console" value="Xbox">Xbox
+        <input type="checkbox" name="console" value="PS(4 or 5)">PS (4 or 5)
+       </div>
+      
+    </label>
+    <div id="add-com">
+      <p>Additional comments :</p>
+      <textarea placeholder="Drop your additional comments here"></textarea>
+    </div>
+    <label for="submit">
+      <input type="submit" id="submit">
+    </label>
+  </form>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

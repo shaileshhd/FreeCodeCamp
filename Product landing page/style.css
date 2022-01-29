@@ -1,0 +1,154 @@
+#header-img{
+  width: 200px;
+  height: 150px;
+  margin-top: -40px;
+}
+#header{
+  position: fixed;
+  top: 0;
+  width: 98.3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+}
+#nav-bar{
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+.nav-link{
+  text-decoration: none;
+  color: black;
+  padding: 2px 2px;
+  margin: 0 2px;
+  transition: 500ms;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0);
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-link:hover{
+  border-style: solid;
+  border-color: gold;
+  border-radius: 5px;
+}
+#logo{
+  width: 100px;
+  display: block;
+  margin: 120px auto;
+  margin-bottom: 25px;
+}
+#quote{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 1000;
+  font-size: 25px;
+}
+#features{
+  margin: 100px 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+#features > section{
+  margin-bottom: 30px;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#form > label input{
+  padding: 10px 10px;
+  margin: 5px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1000;
+}
+#submit{
+  background-color: gold;
+  font-weight: 500;
+  transition: 300ms;
+}
+#submit:hover{
+  background-color: green;
+  color: whitesmoke;
+}
+#video{
+  display: block;
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 25px;
+  width: 50%;
+  height: calc(width/9);
+}
+.costumes-card{
+  height: 300px;
+  width: 200px;
+  border-radius: 20px;
+}
+.crop{
+  height: 76%;
+}
+.content{
+  height: 20%;
+  border-style: solid;
+  border-color: rgb(60, 202, 212);
+  text-align: center;
+  line-height: 2px;
+  background-color: rgb(60, 202, 212);
+  border-radius: 10px;
+}
+#product > a{
+  text-decoration: none;
+  color: white
+}
+#product{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 250px));
+  justify-items: center;
+  margin: 200px 30px;
+  grid-row-gap: 20px;
+  grid-column-gap: 80px;
+  align-content: center;
+}
+#iron-man{
+  background-image: url(https://static.wikia.nocookie.net/marvelheroes/images/2/2e/F_ironman_mark3.png/revision/latest/scale-to-width-down/300?cb=20170720005244);
+  background-size: 200px;
+  background-color: white;
+}
+#cpt-america{
+  background-image: url(https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/1b/SamWilson-CaptainAmerica.png/revision/latest?cb=20210524144921);
+  background-size: 200px;
+}
+#black-panther{
+  background-image: url(https://www.concordmonitor.com/getattachment/4799cfdd-e0f0-4ebc-8961-96966080d1d6/blackpanther-cmae-022818-ph3);
+  background-size: 200px;
+}
+#thor{
+  background-image: url(https://www.kindpng.com/picc/m/276-2767297_thor-free-png-image-thor-costume-mens-transparent.png);
+  background-size: 200px;
+}
+#black-widow{
+  background-image: url(https://assets.cosplaycentral.com/blackwidow_lob_crd_05.jpg/BROK/resize/414%3E/format/jpg/quality/70/blackwidow_lob_crd_05.jpg);
+  background-size: 200px;
+}
+#vision{
+  background-image: url(https://media1.popsugar-assets.com/files/thumbor/LhrVREDtyi6uKlvaCUMV7okvWxM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/08/25/737/n/1922283/f504022f6f71f978_visiion/i/Vision-From-Avengers-Infinity-War.jpg);
+  background-size: 200px;
+}
+#hawkeye{
+  background-image: url(https://images.thedirect.com/media/photos/hawkeye-kate-1.jpg);
+  background-size: 200px;
+}
+@media(max-width: 700px){
+  
+  #nav-bar{
+    display:flex;
+    flex-direction: column;
+  }
+  #nav-bar > li{
+    margin-top: 5px;
+  }
+}
